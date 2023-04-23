@@ -4,24 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio website</title>
+    <title>Tyrese's portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/31a1f596d4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="header"></div>
     <div class="container">
         <nav>
-            <img src="" class="logo">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Projects</a></li>
             </ul>
         </nav>
+        <div class="main">
         <div class="header-text">
-            <p>Full stack software developer</p>
-            <h1>Hi, I'm Tyrese Sylvester based in London!</h1>
+            <h1>Hi, I'm <span>Tyrese Sylvester</span></h1>
+            <p>I'm an aspiring software developer from London</p>
+        </div>
+        <!-- <div class="project-list">
+            <ul>
+                <li><a>Board game review project</a></li>
+                <li><a>Weather app</a></li>
+                <li><a>MoodMate: mobile app</a></li>
+                <li><a></a></li>
+            </ul>
+        </div> -->
+
         </div>
     </div>
+
+<!-- ---------portfolio--------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/board-game.jpeg">
+                    <div class="work-info">
+                        <h3>Board game review site</h3>
+                        <p>A board games reviews site allows user to comment and vote on reviews, with a log in page that alters global context and conditional rendering.</p>
+                        <a href="https://bored-gamezz.netlify.app/"><i class="fa-solid fa-link"></i>View site</a>
+                        <a href="https://github.com/tyrese-s/nc-games"><i class="fa-brands fa-github"></i>Front end repository</a>
+                        <a href="https://github.com/tyrese-s/be-game-project"><i class="fa-brands fa-github"></i>Back end repository</a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/weather-app.png">
+                    <div class="work-info">
+                        <h3>Weather site</h3>
+                        <p>A website which allows you to current weather from searched city/country</p>
+                        <a href="#"><i class="fa-solid fa-link"></i>View site</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/mental-health.png">
+                    <div class="work-info">
+                        <h3>MoodMate</h3>
+                        <p>A fullstack mental health mobile app. Users can sign up and log in to use the app where they're able to view information on moods which may be affecting them. The app provides daily quotes and uses OCR(Optical Character Recognition) software to allow users to upload their own quotes and save it on their account.</p>
+                        <a href="https://github.com/tyrese-s/FE-MoodMate"><i class="fa-brands fa-github"></i></i>GitHub</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    
 </body>
 </html>

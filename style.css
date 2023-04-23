@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -32,7 +33,7 @@ nav {
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 10px 15px;
 }
 
 nav ul li a{
@@ -57,12 +58,83 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
-.header-text {
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+
     margin-top: 20%;
+}
+
+.header-text {
     font-size: 30px;
 }
 
 .header-text h1 {
     font-size: 60px;
     margin-top: 20px;
+}
+
+.header-text h1 span {
+    color: #ff9100;
+}
+
+.project-list li {
+    list-style: none;
+
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* portfolio */
+
+#portfolio {
+    margin: 200px 0;
+
+}
+
+
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.work-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;   
+    font-size: 16px;
+}
+
+.work-info h3 {
+    font-weight: 500;
+    margin: 20px 0 ;
+
+}
+
+.work-info a {
+    /* margin-right: 10px; */
+    margin-top: 20px;
+    color: #ff004f;
+    text-decoration: none;
 }
