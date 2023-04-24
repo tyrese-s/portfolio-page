@@ -11,9 +11,12 @@ html {
 
 body {
     background: #080808;
+    background-image: url('/images/klim-musalimov-rDMacl1FDjw-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% ;
     color: #fff;
 }
-
 
 .container {
     padding: 10px 10%;
@@ -65,13 +68,29 @@ nav ul li a:hover::after{
     margin-top: 20%;
 }
 
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tech-stack ul{
+    margin: 10px 10px;
+    color: #bb6e08;
+}
+
+.tech-stack ul li {
+    list-style-type: none;
+    margin: 5px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .header-text {
     font-size: 30px;
 }
 
 .header-text h1 {
     font-size: 60px;
-    margin-top: 20px;
 }
 
 .header-text h1 span {
@@ -88,8 +107,7 @@ nav ul li a:hover::after{
 /* portfolio */
 
 #portfolio {
-    margin: 500px 0;
-    margin-top: 500px;
+    margin: 200px 0;
 }
 
 
@@ -134,7 +152,6 @@ nav ul li a:hover::after{
 }
 
 .work-info a {
-    /* margin-right: 10px; */
     margin-top: 20px;
     color: #ff004f;
     text-decoration: none;
@@ -143,7 +160,6 @@ nav ul li a:hover::after{
 /* about me*/
 
 #about {
-    padding: 80px 0;
     margin-bottom: 200px;
     color: #ababab;
 }
@@ -156,6 +172,10 @@ nav ul li a:hover::after{
 
 .about-col-1 {
     flex-basis: 60%;
+}
+
+.about-col-1 p {
+    font-size: 20px;
 }
 
 .about-col-2 {
