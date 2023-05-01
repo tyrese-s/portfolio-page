@@ -1,3 +1,3 @@
 # portfolio-page
 
-Project portfolio page using JavaScript, HTML and CSS
+Project portfolio page using HTML and CSS
